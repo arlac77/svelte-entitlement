@@ -1,5 +1,5 @@
 <script>
-  export let id;
+  export let entitlement;
 </script>
 
 <style>
@@ -12,4 +12,4 @@
   }
 </style>
 
-<div class="entitlement">{id}</div>
+<div class="entitlement">{entitlement.name}</div>
