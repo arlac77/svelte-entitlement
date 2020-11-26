@@ -4,7 +4,5 @@
   const entitlement = new Entitlement({ cn: "all" });
 </script>
 
-<div>
-  <h1>Example</h1>
-  <EntitlementBadge {entitlement} />
-</div>
+<h1>Example</h1>
+<EntitlementBadge {entitlement} />
