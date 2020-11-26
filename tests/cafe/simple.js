@@ -1,6 +1,8 @@
 import { Selector } from "testcafe";
 
-fixture`Entitlement`.page`/`;
+const base = "http://localhost:5000";
+
+fixture`Entitlement`.page`${base}/index.html`;
 
 test("visible", async t => {
   const title = Selector(".entitlement");
