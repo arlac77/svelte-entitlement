@@ -1,10 +1,19 @@
 <script>
-  import { EntitlementBadge, Entitlement } from "../../../src/index.svelte";
+  import {
+    EntitlementBadge,
+    EntitlementBadges,
+    Entitlement
+  } from "../../../src/index.svelte";
 
-  const e1 = new Entitlement({ cn: "all" });
-  const e2 = new Entitlement("other");
+  const e1 = new Entitlement({ cn: "e1" });
+  const e2 = new Entitlement("e2");
+  const e3 = new Entitlement("e3");
+
+  const entitlements = [e1, e2];
+  const entitlements2 = [e3];
 </script>
 
 <h1>Example</h1>
-<EntitlementBadge entitlement={e1} />
-<EntitlementBadge entitlement={e2} />
+<EntitlementBadges {entitlements} />
+Into:
+<EntitlementBadges entitlements={entitlements2} />

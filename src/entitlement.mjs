@@ -8,9 +8,20 @@ export class Entitlement {
     } else {
       Object.assign(this, json);
     }
+
+    this.id = this.name;
   }
 
   get name() {
     return this.cn;
+  }
+
+  /*
+  get id() {
+    return this.name;
+  }*/
+
+  get displayName() {
+    return this.name;
   }
 }

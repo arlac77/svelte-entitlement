@@ -5,7 +5,7 @@
 <style>
   .entitlement {
     display: inline-block;
-    background-color: var(--primary-color-600);
+    background-color: var(--primary-color-400);
     border-radius: 0.5em;
     padding: 0.2em;
     margin: 0.2em;
