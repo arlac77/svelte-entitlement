@@ -15,6 +15,9 @@
     "lint": "npm run lint:docs",
     "lint:docs": "documentation lint ./src/index.svelte"
   },
+  "dependencies": {
+    "svelte-dnd-action": "^0.6.22"
+  },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^10.0.0",
     "@rollup/plugin-virtual": "^2.0.3",
@@ -40,8 +43,5 @@
       "arlac77/template-svelte-component",
       "arlrac77/template-arlac77-github"
     ]
-  },
-  "dependencies": {
-    "svelte-dnd-action": "^0.6.22"
   }
 }
