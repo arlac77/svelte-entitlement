@@ -13,7 +13,7 @@ export class Entitlement {
   }
 
   get name() {
-    return this.cn;
+    return Array.isArray(this.cn) ? this.cn[0]: this.cn;
   }
 
   /*

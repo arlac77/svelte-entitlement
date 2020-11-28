@@ -13,3 +13,11 @@ et.title = (providedTitle = "", initial, expectedName) =>
 test(et, "e1", "e1");
 //test(et, { name: "e1" }, "e1");
 test(et, { cn: "e1" }, "e1");
+test(
+  et,
+  {
+    dn: "cn=system-dashboard.unit.restart,ou=groups,dc=example,dc=de",
+    cn: ["system-dashboard", "system-dashboard.unit.restart"]
+  },
+  "system-dashboard"
+);
