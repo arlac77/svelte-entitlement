@@ -1,12 +1,12 @@
 /**
- *
+ * @param {string|Object} data
  */
 export class Entitlement {
-  constructor(json) {
-    if (typeof json === "string") {
-      Object.defineProperties(this, { name: { value: json } });
+  constructor(data) {
+    if (typeof data === "string") {
+      Object.defineProperties(this, { name: { value: data } });
     } else {
-      Object.assign(this, json);
+      Object.assign(this, data);
     }
 
     this.id = this.name;

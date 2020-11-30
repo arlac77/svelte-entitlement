@@ -13,19 +13,21 @@
     entitlements = e.detail.items;
   }
 </script>
+
 <style>
   section {
-      width: 50%;
-      padding: 0.3em;
-      border: 1px solid var(--primary-color-200);
-      overflow: scroll;
-      height: 100px;
+    width: 50%;
+    padding: 0.3em;
+    border: 1px solid var(--primary-color-200);
+    overflow: scroll;
+    height: 100px;
   }
 </style>
 
 <section
-  use:dndzone={{ transformDraggedElement: (...args) => { console.log(...args)},
-  type: "entitlement", items: entitlements, flipDurationMs }}
+  use:dndzone={{ transformDraggedElement: (...args) => {
+      console.log(...args);
+    }, type: 'entitlement', items: entitlements, flipDurationMs }}
   on:consider={handleDndConsider}
   on:finalize={handleDndFinalize}>
   {#each entitlements as entitlement (entitlement.id)}
