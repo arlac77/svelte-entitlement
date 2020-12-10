@@ -1,16 +1,14 @@
 <script>
   import { dndzone } from "svelte-dnd-action";
   import EntitlementBadge from "./EntitlementBadge.svelte";
+  import { Entitlement } from "./Entitlement.mjs";
 
   export let entitlements;
-  const flipDurationMs = 300;
   function handleDndConsider(e) {
-    //console.log("handleDndConsider",e.detail.items);
-    entitlements = e.detail.items;
+    entitlements = e.detail.items.map(i => new Entitlement(i.id));
   }
   function handleDndFinalize(e) {
-    //console.log("handleDndFinalize",e.detail.items);
-    entitlements = e.detail.items;
+    entitlements = e.detail.items.map(i => new Entitlement(i.id));
   }
 </script>
 
@@ -25,9 +23,7 @@
 </style>
 
 <section
-  use:dndzone={{ transformDraggedElement: (...args) => {
-      console.log(...args);
-    }, type: 'entitlement', items: entitlements, flipDurationMs }}
+  use:dndzone={{ type: 'entitlement', items: entitlements }}
   on:consider={handleDndConsider}
   on:finalize={handleDndFinalize}>
   {#each entitlements as entitlement (entitlement.id)}
