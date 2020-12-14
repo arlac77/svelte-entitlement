@@ -21,7 +21,7 @@
     "svelte-dnd-action": "^0.6.23"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^11.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
     "@rollup/plugin-virtual": "^2.0.3",
     "ava": "^3.14.0",
     "c8": "^7.3.5",
