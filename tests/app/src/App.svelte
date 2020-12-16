@@ -1,9 +1,7 @@
 <script>
-  import {
-    EntitlementBadge,
-    EntitlementBadges,
-    Entitlement
-  } from "../../../src/index.svelte";
+  import * as style from "./main.css";
+
+  import { EntitlementBadges, Entitlement } from "../../../src/index.svelte";
 
   const e1 = new Entitlement({ cn: "e1" });
   const e2 = new Entitlement("e2");
