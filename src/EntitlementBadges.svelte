@@ -12,16 +12,6 @@
   }
 </script>
 
-<style>
-  section {
-    width: 50%;
-    padding: 0.3em;
-    border: 1px solid var(--primary-color-200);
-    overflow: scroll;
-    height: 100px;
-  }
-</style>
-
 <section
   use:dndzone={{ type: 'entitlement', items: entitlements }}
   on:consider={handleDndConsider}
