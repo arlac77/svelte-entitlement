@@ -1,7 +1,7 @@
 <script>
   import { dndzone } from "svelte-dnd-action";
   import EntitlementBadge from "./EntitlementBadge.svelte";
-  import { Entitlement } from "./Entitlement.mjs";
+  import { Entitlement } from "./entitlement.mjs";
 
   export let entitlements;
   function handleDndConsider(e) {
