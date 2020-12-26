@@ -27,6 +27,7 @@
     "c8": "^7.3.5",
     "documentation": "github:arlac77/documentation",
     "mf-styling": "arlac77/mf-styling",
+    "postcss": "^8.2.1",
     "postcss-import": "^14.0.0",
     "rollup": "^2.35.1",
     "rollup-plugin-dev": "^1.1.3",
