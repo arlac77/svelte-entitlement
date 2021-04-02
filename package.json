@@ -1,6 +1,9 @@
 {
   "name": "svelte-entitlement",
   "version": "0.0.0-semantic-release",
+  "exports": {
+    "./package.json": "./package.json"
+  },
   "svelte": "./src/index.svelte",
   "keywords": [
     "component",
