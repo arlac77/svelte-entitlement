@@ -18,7 +18,7 @@
     "lint:docs": "documentation lint ./src/**/*.mjs"
   },
   "dependencies": {
-    "svelte-dnd-action": "^0.9.3"
+    "svelte-dnd-action": "^0.9.9"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.0",
