@@ -41,7 +41,7 @@
     "rollup-plugin-consts": "^1.0.2",
     "rollup-plugin-dev": "^2.0.3",
     "rollup-plugin-executable": "^1.6.3",
-    "rollup-plugin-gzip": "2.5.0",
+    "rollup-plugin-gzip": "3.0.0",
     "rollup-plugin-native": "^1.2.16",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-svelte": "^7.1.0",
