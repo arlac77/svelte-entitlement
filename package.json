@@ -27,7 +27,7 @@
     "ava": "^4.2.0",
     "c8": "^7.11.3",
     "documentation": "^13.2.5",
-    "mf-styling": "^1.2.14",
+    "mf-styling": "^1.2.16",
     "postcss": "^8.4.14",
     "postcss-import": "^14.1.0",
     "rollup": "^2.74.0",
