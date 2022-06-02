@@ -30,7 +30,7 @@
     "mf-styling": "^1.2.20",
     "postcss": "^8.4.14",
     "postcss-import": "^14.1.0",
-    "rollup": "^2.75.4",
+    "rollup": "^2.75.5",
     "rollup-plugin-dev": "^2.0.4",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-svelte": "^7.1.0",
