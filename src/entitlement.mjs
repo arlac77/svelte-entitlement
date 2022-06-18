@@ -16,11 +16,6 @@ export class Entitlement {
     return Array.isArray(this.cn) ? this.cn[0]: this.cn;
   }
 
-  /*
-  get id() {
-    return this.name;
-  }*/
-
   get displayName() {
     return this.name;
   }
