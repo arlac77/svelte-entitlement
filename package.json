@@ -10,30 +10,24 @@
   ],
   "scripts": {
     "prepare": "vite build",
-    "start": "rollup -c tests/app/rollup.config.mjs -w && vite dev",
+    "start": "vite dev",
     "test": "npm run test:ava && npm run test:cafe",
-    "test:cafe": "testcafe $BROWSER:headless tests/cafe/*.js -s build/test --page-request-timeout 9000 --app-init-delay 3000 --app \"rollup -c tests/app/rollup.config.mjs -w\"",
     "test:ava": "ava --timeout 2m tests/*.mjs",
     "cover": "c8 -x 'tests/**/*' --temp-directory build/tmp ava --timeout 2m tests/*.mjs && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
     "docs": "documentation readme --section=API ./src/**/*.mjs",
     "lint": "npm run lint:docs",
     "lint:docs": "documentation lint ./src/**/*.mjs",
-    "build": "rollup -c tests/app/rollup.config.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
     "svelte-dnd-action": "^0.9.18"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^13.3.0",
-    "@rollup/plugin-virtual": "^2.1.0",
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.49",
     "ava": "^4.3.0",
     "c8": "^7.11.3",
     "documentation": "^13.2.5",
     "mf-styling": "^1.2.22",
-    "rollup": "^2.75.6",
-    "rollup-plugin-dev": "^2.0.4",
     "semantic-release": "^19.0.3",
     "svelte": "^3.48.0",
     "testcafe": "^1.19.0",
