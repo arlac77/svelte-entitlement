@@ -38,6 +38,9 @@
     "testcafe": "^1.19.0",
     "vite": "^2.9.12"
   },
+  "optionalDependencies": {
+    "mf-hosting": "^1.6.3"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/arlac77/svelte-entitlement.git"
@@ -47,7 +50,12 @@
   },
   "homepage": "https://github.com/arlac77/svelte-entitlement#readme",
   "pkgbuild": {
-    "content": {}
+    "content": {
+      "${install.dir}": "build",
+      "${nginx.sites.dir}${name}.conf": "pkg/nginx.conf"
+    },
+    "hooks": "pkg/hooks.sh",
+    "groups": "web"
   },
   "release": {
     "plugins": [
