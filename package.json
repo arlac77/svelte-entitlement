@@ -51,7 +51,7 @@
   "homepage": "https://github.com/arlac77/svelte-entitlement#readme",
   "pkgbuild": {
     "content": {
-      "${install.dir}": "build",
+      "${install.dir}": "build/",
       "${nginx.sites.dir}${name}.conf": "pkg/nginx.conf"
     },
     "hooks": "pkg/hooks.sh",
