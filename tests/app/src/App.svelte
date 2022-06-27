@@ -1,6 +1,4 @@
 <script>
-  import * as style from "./main.css";
-
   import { EntitlementBadges, Entitlement } from "../../../src/index.svelte";
 
   const e1 = new Entitlement({ cn: "e1" });
