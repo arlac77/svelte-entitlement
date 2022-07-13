@@ -1,8 +1,8 @@
 import { Selector } from "testcafe";
 
-const base = "http://localhost:3000/services/svelte-entitlement/";
+const base = "http://localhost:5173/examples/svelte-entitlement/";
 
-fixture`Entitlement`.page`${base}index.html`;
+fixture`Entitlement`.page`${base}`;
 
 test("visible", async t => {
   const title = Selector(".entitlement");
