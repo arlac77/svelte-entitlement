@@ -1,6 +1,6 @@
 import { Selector } from "testcafe";
 
-const base = "http://localhost:3000/services/svelte-entitlement/";
+const base = "http://localhost:5173/services/svelte-entitlement/";
 
 fixture`Entitlement`.page`${base}index.html`;
 
