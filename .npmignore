@@ -1,4 +1,3 @@
-rollup.config.*
 build
 tests
 doc
@@ -10,3 +9,4 @@ doc
 .github
 pkg
 .node-version
+vite.config.js
