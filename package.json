@@ -1,6 +1,9 @@
 {
   "name": "svelte-entitlement",
   "version": "0.0.0-semantic-release",
+  "publishConfig": {
+    "access": "public"
+  },
   "svelte": "./src/index.svelte",
   "keywords": [
     "component",
