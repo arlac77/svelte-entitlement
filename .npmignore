@@ -6,5 +6,6 @@ doc
 .vscode
 .github
 pkg
+dist
 .node-version
 vite.config.mts
