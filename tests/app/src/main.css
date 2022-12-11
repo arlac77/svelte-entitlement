@@ -1,4 +1,4 @@
-@import "mf-styling/src/color-primary-fuchsia.css";
-@import "mf-styling/src/color.css";
-@import "mf-styling/src/global.css";
-@import "../../../src/entitlement.css";
+@import url("mf-styling/src/color-primary-fuchsia.css");
+@import url("mf-styling/src/color.css");
+@import url("mf-styling/src/global.css");
+@import url("../../../src/entitlement.css");
