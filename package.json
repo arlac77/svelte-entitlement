@@ -11,6 +11,13 @@
     "vite",
     "web"
   ],
+  "contributors": [
+    {
+      "name": "Markus Felten",
+      "email": "markus.felten@gmx.de"
+    }
+  ],
+  "license": "BSD-2-Clause",
   "scripts": {
     "prepare": "vite build",
     "start": "vite",
