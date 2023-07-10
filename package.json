@@ -6,9 +6,9 @@
   },
   "exports": {
     ".": {
-      "svelte": "./src/index.svelte",
-      "entitlement.css" : "./src/entitlement.css"
-    }
+      "svelte": "./src/index.svelte"
+    },
+    "./css": "./src/entitlement.css"
   },
   "keywords": [
     "component",
