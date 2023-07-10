@@ -7,7 +7,6 @@
   "exports": {
     ".": {
       "svelte": "./src/index.svelte",
-      "src/entitlement.css" : "./src/entitlement.css",
       "entitlement.css" : "./src/entitlement.css"
     }
   },
