@@ -61,7 +61,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arlac77/svelte-entitlement"
+    "url": "git+https://github.com/arlac77/svelte-entitlement.git"
   },
   "bugs": {
     "url": "https://github.com/arlac77/svelte-entitlement/issues"
