@@ -38,7 +38,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "svelte-dnd-action": "^0.9.40"
+    "svelte-dnd-action": "^0.9.41"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^11.1.0",
