@@ -11,6 +11,7 @@
     },
     "./css": "./src/entitlement.css"
   },
+  "description": "ava openapi testing support",
   "keywords": [
     "component",
     "svelte",
