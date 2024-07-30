@@ -3,7 +3,8 @@
   import EntitlementBadge from "./EntitlementBadge.svelte";
   import { Entitlement } from "./entitlement.mjs";
 
-  export let entitlements;
+  let { entitlements } = $props();
+
   function handleDndConsider(e) {
     entitlements = e.detail.items.map(i => new Entitlement(i.id));
   }
