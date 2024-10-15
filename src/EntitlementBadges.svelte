@@ -15,8 +15,8 @@
 
 <section
   use:dndzone={{ type: "entitlement", items: entitlements }}
-  on:consider={handleDndConsider}
-  on:finalize={handleDndFinalize}
+  onconsider={handleDndConsider}
+  onfinalize={handleDndFinalize}
 >
   {#each entitlements as entitlement (entitlement.id)}
     <EntitlementBadge {entitlement} />
