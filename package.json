@@ -58,7 +58,7 @@
     "vite-plugin-compression2": "^1.3.3"
   },
   "peerDependencies": {
-    "svelte": "^5.17.0"
+    "svelte": "^5.18.0"
   },
   "optionalDependencies": {
     "mf-hosting-cloudflare": "^1.0.7",
