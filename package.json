@@ -55,7 +55,7 @@
     "svelte": "^5.34.3",
     "testcafe": "^3.7.2",
     "vite": "^6.3.5",
-    "vite-plugin-compression2": "^2.0.1"
+    "vite-plugin-compression2": "^2.1.0"
   },
   "peerDependencies": {
     "svelte": "^5.34.0"
