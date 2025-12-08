@@ -28,13 +28,9 @@ jobs:
         uses: actions/setup-node@v6.1.0
         with:
           node-version: ${{ matrix.node-version }}
-      - name: install
-        run: npm ci
       - name: install playwright
         run: npx playwright install --with-deps
       - name: install npm
-        run: npm cit
-      - name: npm install
         run: npm cit
       - name: test and coverage
         run: npm run cover --if-present
