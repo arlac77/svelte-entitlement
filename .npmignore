@@ -8,4 +8,11 @@ doc
 pkg
 dist
 .node-version
+playwright.config.js
 vite.config.mts
+.last-run.json
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
