@@ -39,7 +39,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "svelte-dnd-action": "^0.9.75"
+    "svelte-dnd-action": "^0.9.76"
   },
   "devDependencies": {
     "@playwright/test": "^1.62.0",
